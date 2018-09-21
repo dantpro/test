@@ -4,10 +4,11 @@
 
 date=`date +%y%m%d-%H%M%S`
 
-echo run git add
+echo "Run git add...\n"
+
 git add .
 
-echo run git push on ${date}
+echo "Run git push on ${date}...\n"
 
 
 for i in `git status | grep deleted | awk '{print $2}'`; do git rm $i; done
