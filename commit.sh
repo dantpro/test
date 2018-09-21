@@ -15,8 +15,8 @@ for i in `git status | grep deleted | awk '{print $2}'`; do git rm $i; done
 
 # git add -u .
 #
-git commit -m 'commited on '${date}
+#git commit -m 'commited on '${date}
 
-#git commit -m "$dated $(curl -s http://whatthecommit.com/index.txt)"
+git commit -m "$dated $(curl -s http://whatthecommit.com/index.txt)"
 git push -u origin master
 
