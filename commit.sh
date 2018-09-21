@@ -14,3 +14,5 @@ git commit -m 'commited on '${date}
 echo "\nRun git-push:\n"
 git push -u origin master
 
+echo "\nThe end...\n"
+
