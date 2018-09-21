@@ -2,7 +2,7 @@
 
 # git push ironman repo to github
 
-dated=`date +%Y%m%d-%H%:M:%S`
+dated=`date +%Y%m%d-%H%M%S`
 
 echo run git add
 git add .
