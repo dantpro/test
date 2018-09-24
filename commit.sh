@@ -2,7 +2,7 @@
 
 date=`date +%y%m%d-%H%M%S`
 
-printf "Run git-add...\n"
+printf "Run git-add:\n"
 git add .
 
 printf "Run git-commit on ${date}:\n"
@@ -14,6 +14,6 @@ git commit -m 'commited on '${date}
 printf "\nRun git-push:\n"
 git push -u origin master
 
-printf "\nThe end...\n"
+printf "\nThe end.\n"
 
 
